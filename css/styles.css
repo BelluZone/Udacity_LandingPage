@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.05em;
+}
+
+body {
+    background-color: rgb(10, 10, 56);
+}
+
+h1 {
+    color: white;
+}
+
+.page-header {
+    display: block;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.navbar {}
+
+.navbar ul {
+    padding-top: 25px;
+    text-align: right;
+}
+
+.nav-item {
+    display: inline-block;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 5px 50px;
+}
+
+.nav-item-active {
+    background-color: rgb(10, 10, 56);
+    color: white;
+}
+
+.section {
+    padding: 25px 5% 25px;
+    color: white;
+}
+
+p {
+    font-size: 1000%;
+}
