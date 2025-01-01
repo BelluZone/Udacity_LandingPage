@@ -17,6 +17,7 @@ h1 {
     background-color: white;
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 
 .navbar {}
@@ -41,8 +42,15 @@ h1 {
 .section {
     padding: 25px 5% 25px;
     color: white;
+    z-index: 5;
+    min-height: 80vh;
+    filter: blur(2px);
+}
+
+.section-active {
+    filter: blur(0);
 }
 
 p {
-    font-size: 1000%;
+    font-size: 300%;
 }
